@@ -156,9 +156,10 @@ The following table details each API tool and its inclusion in different preset 
 | Tool Name | Function Description | preset.light | preset.default (Default) | preset.im.default | preset.base.default | preset.base.batch | preset.doc.default | preset.task.default | preset.calendar.default |
 | --- | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | im.v1.chat.create | Create a group chat | | ✓ | ✓ | | | | | |
-| im.v1.chat.list | Get group chat list | ✓ | ✓ | ✓ | | | | | |
+| im.v1.chat.list | Get group chat list | | ✓ | ✓ | | | | | |
+| im.v1.chat.search | Search group chats | ✓ | | | | | | | |
 | im.v1.chatMembers.get | Get group members | | ✓ | ✓ | | | | | |
-| im.v1.message.create | Send messages | | ✓ | ✓ | | | | | |
+| im.v1.message.create | Send messages | ✓ | ✓ | ✓ | | | | | |
 | im.v1.message.list | Get message list | ✓ | ✓ | ✓ | | | | | |
 | bitable.v1.app.create | Create base | | ✓ | | ✓ | ✓ | | | |
 | bitable.v1.appTable.create | Create base data table | | ✓ | | ✓ | ✓ | | | |
@@ -174,7 +175,7 @@ The following table details each API tool and its inclusion in different preset 
 | docx.builtin.search | Search documents | ✓ | ✓ | | | | ✓ | | |
 | drive.v1.permissionMember.create | Add collaborator permissions | | ✓ | | | | ✓ | | |
 | wiki.v2.space.getNode | Get Wiki node | ✓ | ✓ | | | | ✓ | | |
-| wiki.v1.node.search | Search Wiki nodes | ✓ | ✓ | | | | ✓ | | |
+| wiki.v1.node.search | Search Wiki nodes | | ✓ | | | | ✓ | | |
 | contact.v3.user.batchGetId | Batch get user IDs | ✓ | ✓ | | | | | | |
 | task.v2.task.create | Create task | | | | | | | ✓ | |
 | task.v2.task.patch | Modify task | | | | | | | ✓ | |
